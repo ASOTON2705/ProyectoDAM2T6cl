@@ -15,6 +15,8 @@
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
+		B7CE37712A19B7C4005BA0EB /* ServicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE37702A19B7C4005BA0EB /* ServicioViewController.swift */; };
+		B7CE37732A19B848005BA0EB /* ServicioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE37722A19B848005BA0EB /* ServicioTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7CE37702A19B7C4005BA0EB /* ServicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicioViewController.swift; sourceTree = "<group>"; };
+		B7CE37722A19B848005BA0EB /* ServicioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicioTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				B723BAF72A06F4190017E5A5 /* Assets.xcassets */,
 				B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */,
 				B723BAFC2A06F4190017E5A5 /* Info.plist */,
+				B7CE37702A19B7C4005BA0EB /* ServicioViewController.swift */,
+				B7CE37722A19B848005BA0EB /* ServicioTableViewCell.swift */,
 			);
 			path = ProyectoBetaGrupo1T6CL;
 			sourceTree = "<group>";
@@ -249,7 +255,9 @@
 			files = (
 				B723BAF32A06F4180017E5A5 /* ViewController.swift in Sources */,
 				B723BAEF2A06F4180017E5A5 /* AppDelegate.swift in Sources */,
+				B7CE37712A19B7C4005BA0EB /* ServicioViewController.swift in Sources */,
 				B723BAF12A06F4180017E5A5 /* SceneDelegate.swift in Sources */,
+				B7CE37732A19B848005BA0EB /* ServicioTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
