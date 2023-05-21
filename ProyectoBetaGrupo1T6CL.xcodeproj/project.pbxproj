@@ -15,6 +15,7 @@
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
+		B7943D222A19A77D00E39ADE /* HorarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7943D212A19A77D00E39ADE /* HorarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7943D212A19A77D00E39ADE /* HorarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B723BAF72A06F4190017E5A5 /* Assets.xcassets */,
 				B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */,
 				B723BAFC2A06F4190017E5A5 /* Info.plist */,
+				B7943D212A19A77D00E39ADE /* HorarioViewController.swift */,
 			);
 			path = ProyectoBetaGrupo1T6CL;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B723BAF32A06F4180017E5A5 /* ViewController.swift in Sources */,
+				B7943D222A19A77D00E39ADE /* HorarioViewController.swift in Sources */,
 				B723BAEF2A06F4180017E5A5 /* AppDelegate.swift in Sources */,
 				B723BAF12A06F4180017E5A5 /* SceneDelegate.swift in Sources */,
 			);
