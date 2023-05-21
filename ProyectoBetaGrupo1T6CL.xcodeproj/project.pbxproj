@@ -16,6 +16,9 @@
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
+		B752094E2A19AE2000EC5E83 /* CitasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B752094D2A19AE2000EC5E83 /* CitasViewController.swift */; };
+		B75209502A19AE4000EC5E83 /* CitaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B752094F2A19AE4000EC5E83 /* CitaTableViewCell.swift */; };
+		B75209542A19BA0400EC5E83 /* manicure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B75209532A19BA0400EC5E83 /* manicure.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B752094D2A19AE2000EC5E83 /* CitasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitasViewController.swift; sourceTree = "<group>"; };
+		B752094F2A19AE4000EC5E83 /* CitaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitaTableViewCell.swift; sourceTree = "<group>"; };
+		B75209532A19BA0400EC5E83 /* manicure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manicure.jpeg; path = ../../../manicure.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		B723BAED2A06F4180017E5A5 /* ProyectoBetaGrupo1T6CL */ = {
 			isa = PBXGroup;
 			children = (
+				B75209532A19BA0400EC5E83 /* manicure.jpeg */,
 				B723BAEE2A06F4180017E5A5 /* AppDelegate.swift */,
 				B723BAF02A06F4180017E5A5 /* SceneDelegate.swift */,
 				B723BAF22A06F4180017E5A5 /* ViewController.swift */,
@@ -106,6 +113,8 @@
 				B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */,
 				B723BAFC2A06F4190017E5A5 /* Info.plist */,
 				84B2F5652A072422000A0C6F /* Prueba.swift */,
+				B752094D2A19AE2000EC5E83 /* CitasViewController.swift */,
+				B752094F2A19AE4000EC5E83 /* CitaTableViewCell.swift */,
 			);
 			path = ProyectoBetaGrupo1T6CL;
 			sourceTree = "<group>";
@@ -224,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */,
+				B75209542A19BA0400EC5E83 /* manicure.jpeg in Resources */,
 				B723BAF82A06F4190017E5A5 /* Assets.xcassets in Resources */,
 				B723BAF62A06F4180017E5A5 /* Main.storyboard in Resources */,
 			);
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B752094E2A19AE2000EC5E83 /* CitasViewController.swift in Sources */,
 				B723BAF32A06F4180017E5A5 /* ViewController.swift in Sources */,
+				B75209502A19AE4000EC5E83 /* CitaTableViewCell.swift in Sources */,
 				B723BAEF2A06F4180017E5A5 /* AppDelegate.swift in Sources */,
 				84B2F5662A072422000A0C6F /* Prueba.swift in Sources */,
 				B723BAF12A06F4180017E5A5 /* SceneDelegate.swift in Sources */,
