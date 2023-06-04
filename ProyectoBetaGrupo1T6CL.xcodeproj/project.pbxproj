@@ -15,6 +15,7 @@
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
+		B7E1F91D2A19B9CB00C2B9B1 /* fondo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B7E1F91C2A19B9CB00C2B9B1 /* fondo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7E1F91C2A19B9CB00C2B9B1 /* fondo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fondo.jpeg; path = ../fondo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B723BAE22A06F4180017E5A5 = {
 			isa = PBXGroup;
 			children = (
+				B7E1F91C2A19B9CB00C2B9B1 /* fondo.jpeg */,
 				B723BAED2A06F4180017E5A5 /* ProyectoBetaGrupo1T6CL */,
 				B723BB0E2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests */,
 				B723BAEC2A06F4180017E5A5 /* Products */,
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E1F91D2A19B9CB00C2B9B1 /* fondo.jpeg in Resources */,
 				B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */,
 				B723BAF82A06F4190017E5A5 /* Assets.xcassets in Resources */,
 				B723BAF62A06F4180017E5A5 /* Main.storyboard in Resources */,
